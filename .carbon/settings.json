@@ -1,0 +1,83 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "dashboard.database.widgets": [
+        {
+            "name": "Space used by tables",
+            "gridItemConfig": {
+                "sizex": 2,
+                "sizey": 1
+            },
+            "widget": {
+                "table-space-db-insight": null
+            }
+        },
+        {
+            "gridItemConfig": {
+                "sizex": 1,
+                "sizey": 1
+            },
+            "widget": {
+                "explorer-widget": {}
+            }
+        },
+        {
+            "name": "Tasks",
+            "gridItemConfig": {
+                "sizex": 1,
+                "sizey": 1
+            },
+            "widget": {
+                "tasks-widget": {}
+            }
+        },
+        {
+            "provider": "MSSQL",
+            "name": "Top 5 slowest queries by QDS",
+            "gridItemConfig": {
+                "sizex": 2,
+                "sizey": 1
+            },
+            "widget": {
+                "query-data-store-database-insight": null
+            }
+        }
+    ],
+    "dashboard.server.widgets": [
+        {
+            "name": "Backups Status",
+            "widget": {
+                "backup-history-server-insight": null
+            }
+        },
+        {
+            "name": "Database Size",
+            "gridItemConfig": {
+                "sizex": 2,
+                "sizey": 1
+            },
+            "widget": {
+                "all-database-size-server-insight": null
+            }
+        },
+        {
+            "name": "Search Database",
+            "gridItemConfig": {
+                "sizex": 2,
+                "sizey": 1
+            },
+            "widget": {
+                "explorer-widget": {}
+            }
+        },
+        {
+            "name": "Tasks",
+            "widget": {
+                "tasks-widget": {}
+            },
+            "gridItemConfig": {
+                "sizex": 1,
+                "sizey": 1
+            }
+        }
+    ]
+}
